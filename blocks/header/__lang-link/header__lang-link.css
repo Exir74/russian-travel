@@ -8,17 +8,24 @@
   line-height: 28px;
   width: 30px;
   height: 28px;
-
 }
 
-.header__lang-link:first-child{
+.header__lang-link:first-child {
   border-bottom: 2px solid white;
-  color: #FFFFFF;
+  
+  color: #ffffff;
   margin-right: 18px;
 }
 
 @media screen and (max-width: 1024px) {
   .header__lang-link {
-   margin-top: 46px;
+    margin-top: 46px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
