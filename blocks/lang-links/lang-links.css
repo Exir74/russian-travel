@@ -4,13 +4,13 @@
   align-items: flex-start;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lang-links {
     margin-right: 24px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lang-links {
     margin-right: 16px;
   }
