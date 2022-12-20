@@ -5,6 +5,7 @@
   justify-content: space-between; */
   display: grid;
   grid-template-columns: max-content max-content;
+  grid-template-rows: min-content;
   justify-content: space-between;
 }
 
