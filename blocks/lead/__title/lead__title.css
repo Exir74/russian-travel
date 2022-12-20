@@ -1,3 +1,14 @@
+/* .lead__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 600%;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 0 32px 0;
+  padding: 0;
+  max-width: 720px;
+} */
 .lead__title {
   font-family: "Inter";
   font-style: normal;
@@ -8,6 +19,11 @@
   margin: 0 0 32px 0;
   padding: 0;
   max-width: 720px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: center;
 }
 @media screen and (max-width: 1024px) {
   .lead__title {

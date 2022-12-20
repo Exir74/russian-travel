@@ -1,9 +1,15 @@
-.lead{
+/* .lead{
   color: #fff;
   display: flex;
-  /* grid-template-columns: min-content;
-  grid-template-rows: min-content max-content; */
-  /* justify-content: center; */
   align-items: center ;
   flex-direction: column;
+} */
+
+.lead {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  grid-template-rows: min-content min-content min-content min-content;
+  gap: 0px 0px;
+
 }
