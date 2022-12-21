@@ -1,21 +1,21 @@
 .header {
   /* width: 100vw; */
-  min-height: 136px;
+  height: 136px;
   display: grid;
   grid-template-columns: max-content max-content;
   grid-template-rows: min-content;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header {
-    min-height: 128px;
+    height: 128px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    min-height: 106px;
+    height: 106px;
     
   }
 }
