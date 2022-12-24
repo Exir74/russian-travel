@@ -7,11 +7,10 @@
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row-end: 4;
   margin: 64px 0 0 0;
   padding: 0;
-  max-width: 980px;
-  justify-self: center;
+  max-width: 984px;
 
 }
 

@@ -6,8 +6,22 @@
   margin: 0;
   padding: 0;
   grid-column-start: 2;
-  grid-column-end: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 1;
-  width: 690px;
+  grid-row-end: 2;
+  width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    width: calc(100vw - 96px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro__title {
+    width: calc(100vw - 32px);
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
