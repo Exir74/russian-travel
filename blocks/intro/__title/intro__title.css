@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 321px) {
   .intro__title {
-    max-width: calc(100vw - 32px);
+    width: calc(100vw - 32px);
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
