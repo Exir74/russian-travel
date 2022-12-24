@@ -12,14 +12,24 @@
   width: 984px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .intro__title {
     width: calc(100vw - 96px);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .intro__title {
-    width: calc(100vw - 32px);
+    width: calc(100vw - 48px);
+    /* font-weight: 900;
+    font-size: 32px;
+    line-height: 35px; */
+  }
+}
+
+
+@media screen and (max-width: 321px) {
+  .intro__title {
+    max-width: calc(100vw - 32px);
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;

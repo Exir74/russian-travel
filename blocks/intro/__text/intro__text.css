@@ -8,14 +8,22 @@
   line-height: 163%;
   padding: 0;
   margin: 40px 0 33px 0;
-  /* max-width: 690px; */
+  max-width: 690px;
+  box-sizing: border-box;
 }
 
-
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 769px) {
   .intro__text {
-    margin: 40px 16px 34px 0;
+    max-width: calc(100vw - 48px);
+
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .intro__text {
+    /* max-width: calc(100vw - 32px); */
+    max-width: 100%;
+    margin: 40px 0 34px 0;
 
   }
 }
