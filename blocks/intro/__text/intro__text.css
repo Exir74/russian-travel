@@ -5,11 +5,13 @@
   grid-row-end: 3;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 1.63;
   padding: 0;
   margin: 40px 0 33px 0;
   max-width: 690px;
+
   box-sizing: border-box;
+  /* min-height: 208px; */
 }
 
 @media screen and (max-width: 769px) {
@@ -21,7 +23,6 @@
 
 @media screen and (max-width: 321px) {
   .intro__text {
-    /* max-width: calc(100vw - 32px); */
     max-width: 100%;
     margin: 40px 0 34px 0;
 
