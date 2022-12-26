@@ -7,7 +7,7 @@
   /* grid-template-columns: minmax(320px, 460px);
    grid-template-rows: min-content, min-content;      ОТНОСИТЕЛЬНО НОРМ но нет*/
 
-    grid-template-columns: repeat(auto-fit, 460px);
+    /* grid-template-columns: minmax(auto-fit, 460px) 1fr; */
     /* grid-template-rows: repeat(2);   */
 
 }
@@ -19,6 +19,12 @@
 }
 
 @media screen and (max-width: 769px) {
+  .place{
+    grid-gap: 0 28px;
+  }
+}
+
+@media screen and (max-width: 321px) {
   .place{
     grid-gap: 0 28px;
   }
