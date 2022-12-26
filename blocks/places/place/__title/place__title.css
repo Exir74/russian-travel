@@ -4,6 +4,7 @@
   line-height: 1.06;
   margin: 0 0 48px 0;
   padding: 0;
+  /* margin: 0; */
 }
 
 @media screen and (max-width: 769px) {
@@ -11,6 +12,7 @@
     font-weight: 900;
     font-size: 42px;
     line-height: 1.1;
+    
   }
 }
 

@@ -5,20 +5,21 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: calc(100vw - 296px);
-  max-width: 1280px;
   margin: 0 auto 0 auto;
+
+
 }
 
-@media screen and (max-width: 1025px) {
+ /* @media screen and (max-width: 1025px) {
   .places{
-    width: calc(100vw - 10%);
+    width: calc(100% - 96px);
+
   }
 }
 
 @media screen and (max-width: 769px) {
   .places{
-    width: calc(100vw - 48px);
+    width: calc(100% - 48px);
   }
 }
 
@@ -26,4 +27,4 @@
   .places{
     width: 100vw;
   }
-}
+}  */
