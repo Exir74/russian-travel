@@ -16,6 +16,7 @@
   .place{
     grid-gap: 0 32px;
     grid-template-columns: minmax(320px, 440px) minmax(288px, 456px);
+    margin: 0 auto 73px auto;
   }
 }
 
@@ -23,11 +24,13 @@
   .place{
     grid-gap: 0 28px;
     grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
+    /* display: flex;
+    flex-direction: column; */
 
 }
 }
-@media screen and (max-width: 321px) {
+/* @media screen and (max-width: 321px) {
   .place{
     grid-gap: 0 28px;
   }
-}
+} */

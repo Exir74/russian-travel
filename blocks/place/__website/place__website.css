@@ -1,0 +1,17 @@
+.place__website{
+align-self: end;
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+margin: 0 0 48px 0;
+}
+
+
+
+
+@media screen and (max-witdh: 768px) {
+  .place__website{
+    
+  }
+
+}

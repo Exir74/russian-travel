@@ -3,6 +3,7 @@
   font-size: 72px;
   line-height: 1.06;
   margin: 0 0 48px 0;
+  align-self: start;
 }
 
 @media screen and (max-width: 769px) {
@@ -21,5 +22,6 @@
     font-size: 32px;
     line-height: 1.89px;
     margin: 16px;
+    margin: 0;
   }
 }
