@@ -21,3 +21,10 @@
 @import url(../blocks/list/__number/list__number.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/places/plases.css);
+@import url(../blocks/places/place/place.css);
+@import url(../blocks/places/place/__title/place__title.css);
+@import url(../blocks/places/place/__url-heading/place__url-heading);
+@import url(../blocks/places/place/__link/place__link.css);
+@import url(../blocks/places/place/__image/place__image.css);
+@import url(../blocks/places/place/__paragraph/place__paragraph.css);
