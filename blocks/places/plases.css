@@ -3,28 +3,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  display: flex;
+
+  /* display: flex;
   flex-direction: column;
+  max-width: 1280px;
   margin: 0 auto 0 auto;
 
 
 }
 
- /* @media screen and (max-width: 1025px) {
+ @media screen and (max-width: 1025px) {
   .places{
-    width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
+   
 
   }
 }
 
 @media screen and (max-width: 769px) {
   .places{
-    width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
+
   }
 }
 
 @media screen and (max-width: 321px) {
   .places{
-    width: 100vw;
-  }
-}  */
+    width: 100%;
+  }*/
+}  
