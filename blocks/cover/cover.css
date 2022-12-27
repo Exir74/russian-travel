@@ -1,0 +1,23 @@
+.cover{
+  margin: 92px auto 92px auto;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+  width: 1184px;
+  display: flex;
+}
+
+
+@media screen and (max-width: 769px) {
+  .cover{
+    margin: 90px auto 88px auto; ;
+  }
+  
+}
+
+@media screen and (max-width: 760px) {
+  .cover{
+    margin: 66px auto 64px auto; ;
+  }
+  
+}
