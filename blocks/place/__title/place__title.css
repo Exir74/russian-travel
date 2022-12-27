@@ -2,7 +2,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
-  margin: 0 0 0 0;
+  margin: 0;
   align-self: end;
   align-self: start;
 }
@@ -17,12 +17,13 @@
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 760px) {
   .place__title {
     font-weight: 900;
     font-size: 32px;
-    line-height: 1.89px;
-    margin: 16px;
-    margin: 0;
+    line-height: 1.09;
+    /* margin: 16px; */
+    margin: 0 0 0 16px;
+    padding: 0;
   }
 }

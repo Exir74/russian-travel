@@ -4,9 +4,13 @@
   display: grid;
   grid-gap: 0 40px;
   grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
-  grid-template-rows: min-content;
+  /* grid-template-rows: min-content; */
   max-width: 100%;
   margin: 0 auto 80px auto;
+}
+
+.place:last-of-type{
+  margin: 0;
 }
 
 @media screen and (max-width: 1025px) {
@@ -28,7 +32,11 @@
 }
 @media screen and (max-width: 720px) {
   .place {
-    display: flex;
-    flex-direction: column;
+    display:inline-block;
+    margin-bottom: 50px;
   }
+  .place:first-of-type
+{
+  margin-top: 64px;
+}
 }
