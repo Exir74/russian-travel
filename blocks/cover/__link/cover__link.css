@@ -1,3 +1,18 @@
 .cover__link{
+  box-sizing: border-box;
+display: grid;
+gap: 32px;
+background-color: rgba(42, 44, 47, 0.3);
+color: #fff;
+transition: .7s background-color ease;
+text-decoration: none;
+}
 
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, 0.7);
+}
+@media screen and (max-width: 760px) {
+  .cover__link{
+  gap: 16px;
+}
 }
