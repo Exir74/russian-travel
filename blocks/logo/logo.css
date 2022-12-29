@@ -13,9 +13,9 @@
     height: 42px;
   }
 }
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .logo {
     stroke: rgb(0, 0, 0);
     stroke-width: 1px;
   }
-}
+} */
