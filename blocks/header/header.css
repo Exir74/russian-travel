@@ -1,23 +1,25 @@
 .header {
   /* width: 100vw; */
-  height: 136px;
+  /* height: 136px; */
   display: grid;
   grid-template-columns: max-content max-content;
   grid-template-rows: min-content;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto 56px auto;
   max-width: 1280px;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    height: 128px;
+    /* height: 128px; */
+    margin-bottom: 48px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    height: 106px;
+    /* height: 106px;
+    margin-bottom: 48px; */
     
   }
 }

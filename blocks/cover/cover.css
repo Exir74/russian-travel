@@ -4,7 +4,7 @@
   color: #fff;
   display: grid;
   box-sizing: border-box;
-  height: 740px;
+  min-height: 740px;
   width: calc(100vw - 96px);
   max-width: 1280px;
   background-image: url("../../images/cover-trains.jpg");
@@ -15,13 +15,12 @@
 @media screen and (max-width: 1025px) {
   .cover {
     width: 100%;
-    height: 640px;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 769px) {
   .cover {
-    width: 100%;
-    height: 480px;
+    min-height: 480px;
     margin: 90px auto 88px auto;
 
   }
@@ -36,7 +35,6 @@
 @media screen and (max-width: 460px) {
   .cover {
     margin: 66px auto 64px auto;
-    width: 100%;
-    height: 200px;
+    min-height: 200px;
   }
 }
