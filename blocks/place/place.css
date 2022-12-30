@@ -2,9 +2,9 @@
   padding: 0;
   box-sizing: border-box;
   display: grid;
-  grid-gap: 0 40px;
-  grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
-  /* grid-template-rows: min-content; */
+  grid-gap:0 40px;
+  grid-template-columns: minmax(320px, 460px) minmax(288px, 484px); 
+  grid-template-rows: auto 48px auto ;
   max-width: 100%;
   margin: 0 auto 80px auto;
 }
@@ -26,8 +26,6 @@
     grid-gap: 0 28px;
     margin: 0 auto 73px auto;
     grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
-    /* display: flex;
-    flex-direction: column; */
   }
 }
 @media screen and (max-width: 720px) {
