@@ -6,7 +6,6 @@
   flex-direction: column;
   max-width: 984px;
   margin: 0 auto 0 auto;
-  
 }
 
 @media screen and (max-width: 1025px) {
@@ -18,12 +17,11 @@
 @media screen and (max-width: 769px) {
   .places {
     max-width: calc(100% - 48px);
-
   }
 }
 
 @media screen and (max-width: 720px) {
-  .places{
-max-width: 100%;
+  .places {
+    max-width: 100%;
   }
 }
