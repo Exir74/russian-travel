@@ -1,6 +1,4 @@
 .header {
-  /* width: 100vw; */
-  /* height: 136px; */
   display: grid;
   grid-template-columns: max-content max-content;
   grid-template-rows: min-content;
@@ -13,13 +11,5 @@
   .header {
     /* height: 128px; */
     margin-bottom: 48px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    /* height: 106px;
-    margin-bottom: 48px; */
-    
   }
 }

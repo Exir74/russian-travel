@@ -7,24 +7,4 @@
   grid-template-rows: min-content min-content min-content min-content;
   gap: 0px 0px;
   box-sizing: border-box;
-
 }
-/* @media screen and (max-width: 1024px) {
-  .intro {
-    margin: 0 40px 0px 24px;
-  }
-} */
-
-/* @media screen and (max-width: 769px) {
-  .intro {
-
-  }
-} */
-
-/* @media screen and (max-width: 321px) {
-  .intro {
-    margin: 0 16px 0px 16px;
-    max-width: 321px;
-  
-  }
-} */

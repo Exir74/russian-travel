@@ -1,21 +1,6 @@
-.logo{
-
-
-  /* position: absolute;
-  top: 28px;
-  left: 48px; */
-  /* margin: 28px 0 0 48px; */
-}
-
 @media screen and (max-width: 767px) {
   .logo {
     width: 142px;
     height: 42px;
   }
 }
-/* @media screen and (min-width: 1280px) {
-  .logo {
-    stroke: rgb(0, 0, 0);
-    stroke-width: 1px;
-  }
-} */
