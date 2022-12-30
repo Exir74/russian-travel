@@ -5,22 +5,20 @@
   display: grid;
   grid-template-rows: min-content;
   grid-auto-flow: row;
-  grid-gap: 26px;
+  gap: 26px;
   align-items: start;
   margin: 0;
   padding: 0;
 }
 
-
 @media screen and (max-width: 1025px) {
-  .place__paragraphs{
-    grid-gap: 27px;
+  .place__paragraphs {
+    gap: 27px;
   }
 }
 
-
 @media screen and (max-width: 768px) {
-  .place__paragraphs{
-    grid-gap: 25px;
+  .place__paragraphs {
+    gap: 25px;
   }
 }
