@@ -3,8 +3,7 @@
   margin: 28px 0 0 48px;
   min-width: 176px;
   min-height: 52px;
-  z-index: 5;
-  
+  /* z-index: 5; */
 }
 
 @media screen and (max-width: 1023px) {
@@ -20,5 +19,3 @@
     max-height: 42px;
   }
 }
-
-
